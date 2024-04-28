@@ -1,0 +1,65 @@
+
+body{
+    color: #000000;
+    background-color: rgb(253, 253, 255);
+}
+
+.prev{
+    width: 20%;
+    padding: 5px;
+    background-color: rgb(0, 0, 212);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-color: yellow;
+    margin-left: 10%;
+    }
+.sub{
+    width: 20%;
+    padding: 20px;
+    margin-left: 10%;
+    background-color: rgb(0, 255, 17);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(255, 0, 0);
+}
+.nex{
+    width: 20%;
+    padding: 5px;
+    margin-left: 10%;
+    background-color: rgb(197, 222, 5);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(13, 255, 0);
+}
+.prev a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.prev a:hover {
+    font-size: medium;
+    color: yellow;
+}
+
+.nex a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nex a:hover {
+    font-size: medium;
+    color: green;
+}
+
+.sub a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.sub a:hover {
+    font-size: medium;
+    color: red;
+}
